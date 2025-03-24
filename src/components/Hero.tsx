@@ -59,7 +59,7 @@ const Hero = () => {
             Bringing corporate precision with a touch of innovation.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 mb-16">
             <a 
               href="#projects" 
               className="px-8 py-3 bg-severance-navy text-white font-mono rounded-sm hover:bg-severance-navy/90 transition-colors"
