@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { FileCode, Monitor, Laptop } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from './ui/avatar';
 
 const About = () => {
   return (
@@ -48,15 +49,26 @@ const About = () => {
             <div className="relative z-10 bg-white p-4 border border-severance-lightgray rounded-sm">
               <div className="aspect-video bg-severance-navy/5 rounded-sm relative overflow-hidden flex items-center justify-center">
                 <div className="absolute inset-0 bg-severance-offwhite/70 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-20 h-20 bg-severance-red rounded-full mx-auto mb-4"></div>
-                    <p className="font-mono text-severance-navy text-sm">OUTIE</p>
+                  <div className="w-64 h-64 relative mx-auto mb-4 border-4 border-severance-blue rounded-sm overflow-hidden">
+                    <img 
+                      src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952" 
+                      alt="Developer photo" 
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-severance-navy/10"></div>
                   </div>
                 </div>
               </div>
               <div className="mt-4 px-2">
-                <div className="h-2 bg-severance-lightgray rounded-full w-full mb-2"></div>
-                <div className="h-2 bg-severance-lightgray rounded-full w-3/4"></div>
+                <div className="flex justify-between items-center">
+                  <div>
+                    <div className="font-mono text-severance-navy font-medium">MDR // Developer</div>
+                    <div className="text-xs text-severance-navy/60">Clean code enthusiast</div>
+                  </div>
+                  <div className="h-10 w-10 bg-severance-red rounded-full flex items-center justify-center">
+                    <span className="text-white text-xs font-mono">INNIE</span>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="absolute top-6 -right-6 w-full h-full border border-severance-blue z-0"></div>
