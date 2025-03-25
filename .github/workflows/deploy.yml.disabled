@@ -1,9 +1,12 @@
-name: Deploy to GitHub Pages
+# This workflow is disabled as Netlify is now used for deployment
+# Rename back to deploy.yml if GitHub Pages deployment is needed again
+
+name: Deploy to GitHub Pages (Disabled)
 
 on:
   # Run on pushes to main/master branch
   push:
-    branches: [main, master]
+    branches: [] # No branches will trigger this workflow
   # Allow manual triggering
   workflow_dispatch:
 
