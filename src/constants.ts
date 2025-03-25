@@ -45,3 +45,50 @@ export const SKILLS = [
     ],
   },
 ];
+
+export const EXPERIENCE = [
+  {
+    title: "Senior Frontend Developer",
+    company: "Yuki",
+    location: "Tel Aviv, Israel",
+    period: "2024 - Present",
+    description:
+      "Lead frontend developer for corporate efficiency dashboard projects. Implemented data visualization tools",
+    highlights: [
+      "Developed and maintained a Next.js application, utilizing Redux and Material-UI",
+      "Collaborated with backend engineers, creating C# API endpoints to support essential functionality",
+      "Optimized application performance by implementing caching strategies and code splitting",
+    ],
+    logo: "/images/company-logo-y.svg",
+  },
+  {
+    title: "Frontend Developer",
+    company: "Boom",
+    location: "Austin, TX",
+    period: "2021 - 2024",
+    description:
+      "Specialized in mobile and web application development, focusing on React Native for cross-platform mobile solutions and React for web interfaces. Responsible for full-cycle app development from concept to deployment, working closely with design and operations teams.",
+    highlights: [
+      "Led development of a React Native rental app with 100K + users, ensuring a seamless mobile experience",
+      "Managed the entire app lifecycle, from development to deployment on Google Play & Apple App Store",
+      "Built and maintained a React admin panel for the Operations team, improving internal workflows",
+      "Collaborated with UX designers to implement pixel-perfect interfaces",
+    ],
+    logo: "/images/company-logo-b.svg",
+  },
+  {
+    title: "Frontend Developer",
+    company: "Haulmont Technologies",
+    location: "Russia",
+    period: "2020 - 2021",
+    description:
+      "Developed and maintained client websites. Collaborated with the design team to implement responsive layouts and interactive features.",
+    highlights: [
+      "Developed client websites using modern front-end technologies",
+      "Implemented responsive design principles for mobile-first experiences",
+      "Optimized website performance and accessibility",
+      "Worked on the React Native mobile app for a French interprenuer",
+    ],
+    logo: "/images/company-logo-h.svg",
+  },
+];
