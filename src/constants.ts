@@ -6,7 +6,7 @@ export const CONTACT_INFO = {
 
 export const SOCIAL_LINKS = {
   github: "https://github.com/newkatrisha",
-  linkedin: "https://www.linkedin.com/in/ekaterina-khaikin-2272141b0/",
+  linkedin: "https://www.linkedin.com/in/katia-khaikin-2272141b0/",
 };
 
 export const LANGUAGES = [

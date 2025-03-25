@@ -44,4 +44,4 @@ This site is deployed to Netlify, which automatically builds and deploys when ch
 
 ## Contact
 
-Feel free to reach out via the Contact form on my portfolio, or connect with me on [LinkedIn](https://www.linkedin.com/in/ekaterina-khaikin-2272141b0/).
+Feel free to reach out via the Contact form on my portfolio, or connect with me on [LinkedIn](https://www.linkedin.com/in/katia-khaikin-2272141b0/).
