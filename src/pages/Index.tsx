@@ -9,7 +9,6 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 const Index = () => {
-  // Add subtle scroll reveal animations with a more reliable approach
   useEffect(() => {
     const observerOptions = {
       root: null,
@@ -23,8 +22,6 @@ const Index = () => {
     ) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          // Instead of adding classes that might conflict with existing Tailwind animations,
-          // we'll directly modify the opacity to make elements visible
           entry.target.classList.remove("opacity-0");
           entry.target.classList.add("animate-fade-up");
           observer.unobserve(entry.target);
@@ -34,8 +31,6 @@ const Index = () => {
 
     const observer = new IntersectionObserver(handleIntersect, observerOptions);
 
-    // Target section content elements but don't set them to opacity-0 here
-    // as it's causing content to remain invisible
     const elements = document.querySelectorAll(
       "section > div > *:not(.animate-fade-up)"
     );
@@ -56,7 +51,7 @@ const Index = () => {
       <Hero />
       <About />
       <WorkExperience />
-      <Projects />
+      {/* <Projects /> */}
       <Skills />
       <Contact />
       <Footer />
