@@ -38,7 +38,7 @@ const Navbar = () => {
           href="#home"
           className="font-mono text-lg font-medium tracking-tight text-severance-navy"
         >
-          <span className="text-severance-blue">LUMON</span>.DEV
+          <span className="text-severance-blue">KATIA</span>.DEV
         </a>
 
         {/* Mobile Menu Button */}
