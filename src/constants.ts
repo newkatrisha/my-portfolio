@@ -92,3 +92,14 @@ export const EXPERIENCE = [
     logo: "/images/company-logo-h.svg",
   },
 ];
+
+export const PROJECTS = [
+  {
+    title: "Educational Mobile App For Kids",
+    description:
+      "An interactive learning app designed to help children develop essential skills through engaging games, colorful animations, and progress tracking.",
+    tags: ["React Native", "Redux", "Firebase"],
+    imageUrl: "https://placehold.co/600x400/e2e8f0/1e293b?text=Mobile+App",
+    repoUrl: "https://github.com/newkatrisha/LogicLeap",
+  },
+];

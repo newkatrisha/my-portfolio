@@ -20,7 +20,14 @@ const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    const sectionIds = ["home", "about", "experience", "skills", "contact"];
+    const sectionIds = [
+      "home",
+      "about",
+      "experience",
+      "projects",
+      "skills",
+      "contact",
+    ];
 
     const observerOptions = {
       root: null,
@@ -58,7 +65,7 @@ const Navbar = () => {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Experience", href: "#experience" },
-    // { name: "Projects", href: "#projects" },
+    { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
     { name: "Contact", href: "#contact" },
   ];
