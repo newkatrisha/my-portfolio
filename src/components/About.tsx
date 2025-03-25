@@ -62,21 +62,21 @@ const About = () => {
             style={{ animationDelay: "0.2s" }}
           >
             <div className="relative z-10 bg-white p-4 border border-severance-lightgray rounded-sm">
-              <div className="aspect-video bg-severance-navy/5 rounded-sm relative overflow-hidden">
+              <div className="aspect-[3/4] bg-severance-navy/5 rounded-sm relative overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952"
+                  src="/images/profile-photo.jpeg"
                   alt="Developer photo"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-[center_10%]"
                 />
-                <div className="absolute inset-0 bg-severance-navy/10"></div>
+                <div className="absolute inset-0 bg-severance-navy/5"></div>
                 <div className="absolute bottom-0 left-0 right-0 bg-white/80 backdrop-blur-sm p-3">
                   <div className="flex justify-between items-center">
                     <div>
                       <div className="font-mono text-severance-navy font-medium">
-                        MDR // Developer
+                        KATIA // Developer
                       </div>
                       <div className="text-xs text-severance-navy/60">
-                        Clean code enthusiast
+                        Frontend Development Expert
                       </div>
                     </div>
                     <div className="h-10 w-10 bg-severance-red rounded-full flex items-center justify-center">
