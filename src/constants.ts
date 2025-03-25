@@ -9,6 +9,12 @@ export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/ekaterina-khaikin-2272141b0/",
 };
 
+export const LANGUAGES = [
+  { name: "Russian", level: "Native", percentage: 100 },
+  { name: "English", level: "Professional", percentage: 90 },
+  { name: "Hebrew", level: "Professional", percentage: 85 },
+];
+
 export const SKILLS = [
   {
     title: "Frontend",
